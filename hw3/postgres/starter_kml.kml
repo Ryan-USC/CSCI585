@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<!--    Home-->
+    <Folder>
+        <Placemark><name>Home</name>
+        <styleUrl>#z1</styleUrl><Point><coordinates>-118.29581,34.01971</coordinates></Point>
+        </Placemark>
+    </Folder>
+<!--    Waterworks-->
+    <Folder>
+        <Placemark><name>Epstein Plaza</name>
+        <styleUrl>#z1</styleUrl><Point><coordinates>-118.28916,34.02048</coordinates></Point>
+        </Placemark>
+        <Placemark><name>USC Lovine</name>
+        <styleUrl>#z1</styleUrl><Point><coordinates>-118.28778,34.01855</coordinates></Point>
+        </Placemark>
+        <Placemark><name>Patsy</name>
+        <styleUrl>#z1</styleUrl><Point><coordinates>-118.28519,34.02039</coordinates></Point>
+        </Placemark>
+        <Placemark><name>Prentiss</name>
+        <styleUrl>#z1</styleUrl><Point><coordinates>-118.28463,34.02051</coordinates></Point>
+        </Placemark>
+        <Placemark><name>Reflecting</name>
+        <styleUrl>#z1</styleUrl><Point><coordinates>-118.28287,34.02139</coordinates></Point>
+        </Placemark>
+        <Placemark><name>Generations</name>
+        <styleUrl>#z1</styleUrl><Point><coordinates>-118.28322,34.02222</coordinates></Point>
+        </Placemark>
+    </Folder>
+    <Folder>
+        <Placemark><name>Viterbi Lib</name>
+        <styleUrl>#z1</styleUrl><Point><coordinates>-118.28905,34.01953</coordinates></Point>
+        </Placemark>
+        <Placemark><name>Hoose Lib</name>
+        <styleUrl>#z1</styleUrl><Point><coordinates>-118.28677,34.01892</coordinates></Point>
+        </Placemark>
+        <Placemark><name>Doheny Lib</name>
+        <styleUrl>#z1</styleUrl><Point><coordinates>-118.28410,34.02032</coordinates></Point>
+        </Placemark>
+        <Placemark><name>International</name>
+        <styleUrl>#z1</styleUrl><Point><coordinates>-118.28251,34.02071</coordinates></Point>
+        </Placemark>
+        <Placemark><name>Leavy Lib</name>
+        <styleUrl>#z1</styleUrl><Point><coordinates>-118.28299,34.02166</coordinates></Point>
+        </Placemark>
+        <Placemark><name>Marshall Lib</name>
+        <styleUrl>#z1</styleUrl><Point><coordinates>-118.28567,34.01946</coordinates></Point>
+        </Placemark>
+    </Folder>
+<!--    Library-->
+    <Placemark>
+<name>ConvexHullall</name>
+<Style><LineStyle><color>ffff7d53</color></LineStyle><PolyStyle><color>80fe4d28</color></PolyStyle></Style>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-118.28778,34.01855 -118.29581,34.01971 -118.28322,34.02222 -118.28251,34.02071 -118.28677,34.01892 -118.28778,34.01855</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark>
+<name>Closest Neighbor</name>
+<description>Neighbor</description>
+<Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+<LineString>
+<coordinates>-118.29581,34.01971 -118.28916,34.02048</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>
